@@ -73,6 +73,7 @@ def main():
     create_file = prompt_user("Do you want to create a text file containing the list of subreddits? (y/n): ").lower()
     if create_file == "y":
         create_subreddit_file(subreddits, reddit.user.me().name)
+    print("Done.")
 
 if __name__ == "__main__":
     main()

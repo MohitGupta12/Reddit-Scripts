@@ -45,3 +45,4 @@ if len(subreddits) > 0:
             else:
                 leave_subreddit(subreddit.display_name)
 
+print("Done leaving subreddits.")
